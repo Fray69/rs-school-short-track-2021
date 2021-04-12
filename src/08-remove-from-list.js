@@ -17,13 +17,8 @@
  * }
  */
 
-function removeKFromList(l, k) {
-  for (let i = 0; i < l.length; i++) {
-    if (l[i] === k) {
-      l.splice(i, 1); // Удаляю найденный элемент
-    }
-  }
-  return l;
+function removeKFromList(/* l, k */) {
+  throw new Error('Not implemented');
 }
 
 module.exports = removeKFromList;
